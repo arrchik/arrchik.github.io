@@ -1,0 +1,129 @@
+/* #carouselExampleCaptions{
+    height: 100px;
+    width: 99%;
+} */
+nav{
+    background-color: rgba(0, 0, 0, 0.411);
+
+} 
+ @media only screen and (min-width: 668px) {
+        .carousel-item{
+        height:600px;
+        background-position: 50% 50%;
+       }
+    }
+
+.main-foto{
+    height: 1000px;
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+  }
+  h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+       font-style: italic;
+    background-color: rgba(111, 145, 199, 0.603);
+    margin-left: 30%;
+    margin-right: 30%;
+    color: black;
+    border-radius: 100px;
+border-top-left-radius:20px ;
+border-top-right-radius:20px ;
+  }
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #201e1e;
+    z-index: 1031;
+    overflow: hidden;
+}
+
+    body {background: url(https://webfon.top/wp-content/uploads/2018/04/escheresque_ste.png) left top repeat;}
+    .container{
+        background-color: rgba(255, 248, 220, 0.404);
+        height: 100%;
+        margin-left: 10%;
+
+    }
+  
+
+    .blog-post{
+        width: 50%;
+        max-width: 35rem;
+        /* padding: 5rem; */
+        /* background:linear-gradient(to right,#eef2f3,#E2E2E2); */
+        /* box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2); */
+        display: flex;
+        align-items: center;
+        border-radius: .8rem;
+        /* margin-top: 50px; */
+        /* margin-left: 175px; */
+        opacity: 0.999;
+        margin-right:500px ;
+      }
+      
+       .blog-post__img{
+        min-width: 35rem;
+        max-width: 35rem;
+        height: 30rem;
+        transform: translateX(-8rem);
+        position: relative;
+       
+
+      }
+      
+      .blog-post__img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        border-radius: .8rem;
+      }
+      
+      .blog-post__img::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,.0.5);
+        border-radius: .8rem;
+      }
+      .blog-post__img .img-hide{    
+          opacity: 0;      
+      }
+      .blog-post__img:hover .img-hide{
+          opacity: 1;
+          position: absolute; top: 0; left: 0;  
+          transition: all 0.5s ease-in-out;   
+      }
+      .blog-post__img-1 .img-hide{    
+        opacity: 0;      
+      }
+      .blog-post__img-1:hover .img-hide{
+        opacity: 1;
+        position: absolute; top: 0; left: 0;  
+        transition: all 0.5s ease-in-out;   
+      }
+      .blog-post__img-1{
+        min-width: 35rem;
+        max-width: 35rem;
+        height: 30rem;
+        transform: translateX(62rem);
+        position: relative;
+      }
+      .blog-post__img-1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        border-radius: .8rem;}

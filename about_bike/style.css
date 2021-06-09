@@ -48,10 +48,11 @@ border-top-right-radius:20px ;
 
     body {background: url(https://webfon.top/wp-content/uploads/2018/04/escheresque_ste.png) left top repeat;}
     .container{
-        background-color: rgba(255, 248, 220, 0.404);
+        background-color: rgba(0, 0, 0, 0.502);
         /* height: 100%; */
-        margin-left: 7%;
-        margin-right: 7%;
+        margin-left:auto;
+        margin-right: auto;
+        max-width:85% ;
         padding: 1rem;
 
     }

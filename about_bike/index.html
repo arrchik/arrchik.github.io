@@ -80,9 +80,23 @@
                     <li class="nav-item ">
                         <a href="#" class="nav-link active">Головна</a>
                     </li>
-                    <li class="nav-item ">
-                        <a href="#" class="nav-link ">Наші послуги</a>
-                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Типи велосипедів
+
+                        </a>
+                        <div class="dropdown-menu ">
+                          <a class="dropdown-item" href="#">Швидкісний</a>
+                          <a class="dropdown-item" href="#"> Гірський</a>
+                          <a class="dropdown-item" href="#">Шосейний</a>
+                          <!-- <div class="dropdown-divider"></div> -->
+                          <a class="dropdown-item" href="#">Фетбайк</a>
+                          <a class="dropdown-item" href="#">Комфортний</a>
+                          <a class="dropdown-item" href="#">BMX</a>
+                          <a class="dropdown-item" href="#">Складаний</a>
+                          <a class="dropdown-item" href="#">Жіночий </a>
+                          <a class="dropdown-item" href="#">Підлітковий </a>
+                          <a class="dropdown-item" href="#">Дитячий</a>
+
                     <li class="nav-item ">
                         <a href="#" class="nav-link">Новини компанії</a>
                     </li>
@@ -100,14 +114,22 @@
     </div>
     <div class="container ">
 
-        <div class="blog-post">
+        <!-- <div class="blog-post">
             <div class="blog-post__img-1">
-                <img src="https://pbs.twimg.com/media/D22vE-iWoAIhB-L.jpg" alt="">
+                <img class="front" src="https://pbs.twimg.com/media/D22vE-iWoAIhB-L.jpg" alt="">
                 <img class="img-hide"
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAhro4IZDBa2HKHCqA9MboMBpD894SAwoPxXWuUfQmedDHO-2g7aWX0PKGX2qMWy482uc&usqp=CAU"
                     alt="">
             </div>
-        </div>
+        </div> -->
+        <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="https://pbs.twimg.com/media/D22vE-iWoAIhB-L.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Название карточки</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
+            </div>
+          </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

@@ -49,27 +49,70 @@ border-top-right-radius:20px ;
     body {background: url(https://webfon.top/wp-content/uploads/2018/04/escheresque_ste.png) left top repeat;}
     .container{
         background-color: rgba(255, 248, 220, 0.404);
-        height: 100%;
-        margin-left: 10%;
+        /* height: 100%; */
+        margin-left: 7%;
+        margin-right: 7%;
+        padding: 1rem;
 
     }
-  
-
+    .card-img{
+    height:25rem;
+    width: auto;
+    }
+    .card :hover .card-img-top{
+        opacity: 0;
+    transform: scaleZ(110%);
+    }
+    .dropdown-menu{
+        background-color: rgb(59, 58, 58);
+        
+    }
+    .dropdown-menu > a{
+       color: rgb(143, 139, 139);
+        
+    }
+    /* .blog-post__img-1>.front{
+        
+        width: 25rem;
+        height: 15rem;
+        transform: translateX(-8rem);
+        position: relative;
+        
+    }
     .blog-post{
-        width: 50%;
-        max-width: 35rem;
-        /* padding: 5rem; */
-        /* background:linear-gradient(to right,#eef2f3,#E2E2E2); */
-        /* box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2); */
+        width: 95%;
+        
+        padding: 5rem;
+        background:linear-gradient(to right,#eef2f3,#E2E2E2);
+        box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
         display: flex;
         align-items: center;
         border-radius: .8rem;
-        /* margin-top: 50px; */
-        /* margin-left: 175px; */
+         margin-top: 50px;
+         margin-left: 175px; 
         opacity: 0.999;
-        margin-right:500px ;
+         margin-right:500px ; 
       }
-      
+      .blog-post__img .img-hide{    
+        opacity: 0;      
+    }
+     .blog-post__img:hover .img-hide{
+        opacity: 1;
+        position: absolute; top: 0; left: 0;  
+        transition: all 0.5s ease-in-out;   
+    }
+    .blog-post__img-1 .img-hide{    
+      opacity: 0;      
+    }
+    .blog-post__img-1:hover .img-hide{
+      opacity: 1;
+      position: absolute; top: 0; left: 0;  
+      transition: all 0.5s ease-in-out;   
+    } */
+    .front:hover{
+        font-size: 250%;
+
+    }      /* 
        .blog-post__img{
         min-width: 35rem;
         max-width: 35rem;
@@ -127,3 +170,14 @@ border-top-right-radius:20px ;
         object-fit: cover;
         display: block;
         border-radius: .8rem;}
+
+        .blog-post__img-1::before{
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,.0.5);
+            border-radius: .8rem;
+          } */

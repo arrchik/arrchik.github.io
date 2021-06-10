@@ -55,7 +55,6 @@ border-top-right-radius:20px ;
     body {background: url(https://webfon.top/wp-content/uploads/2018/04/escheresque_ste.png) left top repeat;}
     .container{
         background-color: rgba(0, 0, 0, 0.502);
-        /* height: 100%; */
         margin-left:auto;
         margin-right: auto;
         max-width:85% ;
@@ -88,26 +87,51 @@ border-top-right-radius:20px ;
         text-decoration:  none;
     }
     #realeTime:hover {
-        
-
         color: rgba(255, 249, 249, 0.911);
         background-color: rgba(0, 0, 0, 0.479);
     }
     .card-img-overlay{
         background-color: rgba(0, 0, 0, 0.356);
     }
-    .card-img-overlay > a{
+    #twoa > a{
         background-color: rgba(117, 117, 117, 0.8);
         padding: 0.5rem;
         text-decoration: none;
         color: rgb(230, 230, 230);
         border-radius: 5px;
     }
-    .card-img-overlay > a:hover{
+    #twoa  > a:hover{
         background-color: rgb(58, 58, 58, 0.8);
         color: rgb(255, 255, 255);
     }
-    .card-img-overlay > a:active{
+    #twoa  > a:active{
         box-shadow: black 3px 3px 3px 3px ;
     }
+    .card-body-all{
+         margin:2rem 1rem 1rem 1rem;
+border-radius:  10px;
+border: solid black 1px;
+    }
 
+
+
+    .card-body{
+        overflow: visible;
+
+    }
+    .komp{
+        display: flex;
+        
+    justify-content: center;
+    
+    }
+    .komp > img{
+      max-width: 700px;
+      max-height: 350px;
+      width: auto;
+      height: auto;
+    
+    }
+    #twoa{display: flex;
+        justify-content: space-between;
+    }

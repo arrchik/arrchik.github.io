@@ -112,9 +112,6 @@ border-top-right-radius:20px ;
 border-radius:  10px;
 border: solid black 1px;
     }
-
-
-
     .card-body{
         overflow: visible;
 
@@ -134,4 +131,41 @@ border: solid black 1px;
     }
     #twoa{display: flex;
         justify-content: space-between;
+    }
+    .mini-card{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-body-all{
+        border: none;
+       /* border-radius: 5px;
+       border-bottom-left-radius:20px ;
+       border-bottom-right-radius:20px ; */
+
+
+    }
+    .visible-card{
+        border-radius: 10px;
+        border-bottom-left-radius:50px ;
+        border-bottom-right-radius:50px ;
+       z-index: 20;
+       background-color: rgba(126, 126, 126, 0.651);
+       position: relative;
+
+    }
+    .hide-card{
+       
+        background-color: rgba(255, 125, 125, 0.651);
+       border-radius: 10px;
+       border-bottom-left-radius:50px ;
+       border-bottom-right-radius:50px ;
+        position: relative;
+       z-index: 15;
+       top: -25rem;
+       
+
+    }
+    .visible-card:hover{
+transition: 0.5s ;
+        opacity: 0;
     }

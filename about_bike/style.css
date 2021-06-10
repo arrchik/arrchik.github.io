@@ -133,10 +133,14 @@ border: solid black 1px;
         justify-content: space-between;
     }
     .mini-card{
+       flex-wrap: wrap;
         display: flex;
         justify-content: space-between;
     }
     .card-body-all{
+        max-height: 25rem;
+        
+
         border: none;
        /* border-radius: 5px;
        border-bottom-left-radius:20px ;
@@ -145,27 +149,37 @@ border: solid black 1px;
 
     }
     .visible-card{
+        
+       
         border-radius: 10px;
         border-bottom-left-radius:50px ;
         border-bottom-right-radius:50px ;
        z-index: 20;
-       background-color: rgba(126, 126, 126, 0.651);
+       background-color: rgb(126, 126, 126);
        position: relative;
-
+       width: 20rem; 
+       height: 22rem;
     }
     .hide-card{
-       
-        background-color: rgba(255, 125, 125, 0.651);
-       border-radius: 10px;
+        width: 20rem;
+        height: 22rem;
+        color: white;
+       padding: 0.5rem;
+       padding-top: 1rem;
+        background-color: rgba(78, 78, 78, 0.651);
+       border-radius: 5px;
        border-bottom-left-radius:50px ;
        border-bottom-right-radius:50px ;
         position: relative;
        z-index: 15;
-       top: -25rem;
+       top: -22rem;
        
 
     }
     .visible-card:hover{
 transition: 0.5s ;
         opacity: 0;
+    }
+    .hide-card > h5{
+        justify-self: center;
     }
